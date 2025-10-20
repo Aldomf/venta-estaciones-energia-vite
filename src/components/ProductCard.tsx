@@ -14,7 +14,7 @@ export default function ProductCard({ title, description, price, image, width, h
       className="bg-white rounded-2xl shadow-md p-4 border-amber-800 border-2 inline-block cursor-pointer hover:scale-105 transition"
       onClick={onClick}
     >
-      <div className="overflow-hidden rounded-lg mb-4">
+      <div className="rounded-lg mb-4">
         <img
           src={image}
           alt={title}
