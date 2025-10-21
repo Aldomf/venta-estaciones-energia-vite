@@ -12,13 +12,13 @@ export type Product = {
 export const products: Product[] = [
   {
     id: "1",
-    name: "Estación 500W",
+    name: "BLUETTI Elite 100 V2",
     media: [
       { type: "image", src: "/venta-estaciones-energia-vite/img/bluetti-1.jpg" },
       { type: "video", src: "/venta-estaciones-energia-vite/vid/blu.mp4" },
       { type: "image", src: "/venta-estaciones-energia-vite/img/bluetti-3.png" },
     ],
-    description: "Ideal para camping, con salida USB-C y panel solar.",
+    description: "Estación de energía portátil (Nuevo modelo 2025), respaldo de batería LiFePO4 de 1024 Wh con 4 tomas de corriente CA de 1800 W (3600 W de pico), 35% más compacta, generador solar para campismo, cortes de energía y respaldo tipo UPS",
     price: "$499",
     phone: "+1234567890",
   },
