@@ -21,9 +21,15 @@ export const products: Product[] = [
     id: "1",
     name: "BLUETTI Elite 100 V2",
     media: [
-      { type: "image", src: "/venta-estaciones-energia-vite/img/bluetti-1.jpg" },
-      { type: "video", src: "/venta-estaciones-energia-vite/vid/blu.mp4" },
-      { type: "image", src: "/venta-estaciones-energia-vite/img/bluetti-3.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-1.jpg" },
+      { type: "video", src: "/venta-estaciones-energia-vite/vid/vid-p-1.mp4" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2.jpg" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-3.jpg" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-4.jpg" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-5.jpg" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6.jpg" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-7.jpg" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-8.jpg" },
     ],
     description:
       "Estación de energía portátil (Nuevo modelo 2025), respaldo de batería LiFePO4 de 1024 Wh con 4 tomas de corriente CA de 1800 W (3600 W de pico), 35% más compacta, generador solar para campismo, cortes de energía y respaldo tipo UPS",
