@@ -3,6 +3,9 @@ import { useParams } from "react-router-dom";
 import Carousel from "../components/ProductCarousel";
 import { products } from "../data/products";
 
+import { FaFacebookF, FaWhatsapp } from "react-icons/fa"; // usando react-icons también
+
+
 export default function ProductPage() {
   const { id } = useParams();
   const product = products.find((p) => p.id === id);
@@ -64,7 +67,15 @@ export default function ProductPage() {
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-6 py-3 rounded-xl text-center font-medium hover:bg-blue-700 transition-colors duration-300"
             >
-              💬 Ir a Facebook
+              <FaFacebookF className="w-5 h-5" /> Ir a Facebook
+            </a>
+            <a
+              href="https://wa.me/5354377277?text=Hola%2C%20estoy%20interesado%20en%20el%20producto%20que%20vi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-500 text-white px-6 py-3 rounded-xl text-center font-medium hover:bg-green-600 transition-colors duration-300"
+            >
+              <FaWhatsapp className="w-5 h-5" /> WhatsApp
             </a>
           </div>
         </div>

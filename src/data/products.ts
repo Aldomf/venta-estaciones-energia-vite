@@ -32,7 +32,7 @@ export const products: Product[] = [
       { type: "image", src: "/venta-estaciones-energia-vite/img/p-8.jpg" },
     ],
     description:
-      "Estación de energía portátil (Nuevo modelo 2025), respaldo de batería LiFePO4 de 1024 Wh con 4 tomas de corriente CA de 1800 W (3600 W de pico), 35% más compacta, generador solar para campismo, cortes de energía y respaldo tipo UPS",
+      "Estación de energía portátil (Nuevo modelo 2025), respaldo de batería LiFePO4 de 1024 Wh con 4 tomas de corriente CA de 1800 W (3600 W de pico)",
     price: "$499",
     details: [
       { label: "Marca", value: "BLUETTI" },
@@ -55,11 +55,7 @@ export const products: Product[] = [
     specifications: [
       {
         title: "[Alimenta 11 dispositivos]",
-        text: "Con una capacidad de 1024Wh, la estación de energía portátil Elite 100 V2 ofrece una salida de 1800W AC (2700W de potencia máxima) y 11 puertos, ideal para acampar al aire libre, casas rodantes (RV) y trabajo remoto.",
-      },
-      {
-        title: "[35% más pequeña, 30% más ligera]",
-        text: "La Elite 100 V2 pesa 25 libras y tiene un diseño compacto de 17L. Llévala con una sola mano gracias a su asa oculta, perfecta para transportarla desde la oficina en casa hasta el campamento o una cabaña sin conexión eléctrica.",
+        text: "Con una capacidad de 1024Wh, la estación de energía portátil Elite 100 V2 ofrece una salida de 1800W AC (2700W de potencia máxima) y 11 puertos.",
       },
       {
         title: "[Carga completa en 70 minutos]",
@@ -68,10 +64,6 @@ export const products: Product[] = [
       {
         title: "[Respaldo confiable de emergencia]",
         text: "La Elite 100 V2 se activa instantáneamente durante un corte de energía, protegiendo el enrutador WiFi y la PC de apagones. Además, funciona silenciosamente con un nivel de ruido de solo 30 dB, similar al de una biblioteca.",
-      },
-      {
-        title: "[Qué incluye]",
-        text: "Estación de energía portátil BLUETTI Elite 100 V2, cable de carga AC, cable de carga solar, tornillo de conexión a tierra y manual de usuario.",
       },
     ],
   },
