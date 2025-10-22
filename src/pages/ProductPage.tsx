@@ -24,7 +24,7 @@ export default function ProductPage() {
       <div className="flex flex-col md:flex-row gap-10">
         {/* Botón de atrás */}
         <a
-          href="/"
+          href="/venta-estaciones-energia-vite/"
           className="fixed top-0 left-0 rounded-xl text-3xl lg:text-5xl z-50"
         >
           ⬅️
