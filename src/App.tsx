@@ -4,7 +4,7 @@ import ProductPage from "./pages/ProductPage";
 
 export default function App() {
   return (
-    <Router basename="/venta-estaciones-energia-vite">
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/producto/:id" element={<ProductPage />} />
