@@ -3,8 +3,7 @@ import { useParams } from "react-router-dom";
 import Carousel from "../components/ProductCarousel";
 import { products } from "../data/products";
 
-import { FaFacebookF, FaWhatsapp } from "react-icons/fa"; // usando react-icons también
-
+import { FaFacebookF, FaWhatsapp, FaArrowLeft, FaPhoneAlt } from "react-icons/fa"; // usando react-icons también
 
 export default function ProductPage() {
   const { id } = useParams();
@@ -22,20 +21,22 @@ export default function ProductPage() {
     <div className="max-w-6xl mx-auto mt-24 px-6 md:px-10 lg:px-16 font-inter text-gray-800">
       {/* Sección superior */}
       <div className="flex flex-col md:flex-row gap-10">
-        {/* Botón de atrás */}
+        <div className="fixed right-0 top-0 w-full py-1 flex flex-row justify-between items-center bg-white shadow-md" >
+          {/* Botón de atrás */}
         <a
           href="/venta-estaciones-energia-vite/"
-          className="fixed top-0 left-0 rounded-xl text-3xl lg:text-5xl z-50"
+          className="rounded-xl text-3xl lg:text-5xl z-50"
         >
-          ⬅️
+          <FaArrowLeft />
         </a>
         {/* Botón de llamada fijo */}
         <a
           href="tel:+5354377277"
-          className="fixed top-0 right-0 bg-green-600 text-white px-6 py-3 rounded-xl font-medium shadow-lg hover:bg-green-700 transition-colors duration-300 z-50"
+          className=" bg-green-600 text-white px-6 py-3 rounded-xl font-medium shadow-lg hover:bg-green-700 transition-colors duration-300 z-50 flex items-center justify-center gap-2"
         >
-          📞 Llamar al +53 54377277
+          <FaPhoneAlt /> Llamar al +53 54377277
         </a>
+        </div>
 
         {/* Imagen principal */}
         <div className="md:w-1/2 flex flex-col items-center">
@@ -61,19 +62,22 @@ export default function ProductPage() {
 
           {/* Botones de acción */}
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
+            <h2 className="text-3xl font-bold">¡Contactame ya!</h2>
             <a
-              href="https://facebook.com"
+              href="https://m.me/elizabeth.fernandez.937422"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-6 py-3 rounded-xl text-center font-medium hover:bg-blue-700 transition-colors duration-300"
+              className="bg-blue-600 text-white px-6 py-3 rounded-xl font-medium hover:bg-blue-700 transition-colors duration-300 flex items-center justify-center gap-2"
             >
-              <FaFacebookF className="w-5 h-5" /> Ir a Facebook
+              <FaFacebookF className="w-5 h-5" />
+              Facebook
             </a>
+
             <a
               href="https://wa.me/5354377277?text=Hola%2C%20estoy%20interesado%20en%20el%20producto%20que%20vi"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-500 text-white px-6 py-3 rounded-xl text-center font-medium hover:bg-green-600 transition-colors duration-300"
+              className="bg-green-500 text-white px-6 py-3 rounded-xl text-center font-medium hover:bg-green-600 transition-colors duration-300 flex items-center justify-center gap-2"
             >
               <FaWhatsapp className="w-5 h-5" /> WhatsApp
             </a>
