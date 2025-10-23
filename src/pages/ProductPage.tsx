@@ -2,8 +2,14 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import Carousel from "../components/ProductCarousel";
 import { products } from "../data/products";
+import ShareButton from "../components/ShareButton";
 
-import { FaFacebookF, FaWhatsapp, FaArrowLeft, FaPhoneAlt } from "react-icons/fa"; // usando react-icons también
+import {
+  FaFacebookF,
+  FaWhatsapp,
+  FaArrowLeft,
+  FaPhoneAlt,
+} from "react-icons/fa"; // usando react-icons también
 
 export default function ProductPage() {
   const { id } = useParams();
@@ -21,21 +27,21 @@ export default function ProductPage() {
     <div className="max-w-6xl mx-auto mt-24 px-6 md:px-10 lg:px-16 font-inter text-gray-800">
       {/* Sección superior */}
       <div className="flex flex-col md:flex-row gap-10">
-        <div className="fixed right-0 top-0 w-full py-1 flex flex-row justify-between items-center bg-white shadow-md" >
+        <div className="fixed right-0 top-0 w-full py-1 flex flex-row justify-between items-center bg-white shadow-md">
           {/* Botón de atrás */}
-        <a
-          href="/venta-estaciones-energia-vite/"
-          className="rounded-xl text-3xl lg:text-5xl z-50"
-        >
-          <FaArrowLeft />
-        </a>
-        {/* Botón de llamada fijo */}
-        <a
-          href="tel:+5354377277"
-          className=" bg-green-600 text-white px-6 py-3 rounded-xl font-medium shadow-lg hover:bg-green-700 transition-colors duration-300 z-50 flex items-center justify-center gap-2"
-        >
-          <FaPhoneAlt /> Llamar al +53 54377277
-        </a>
+          <a
+            href="/venta-estaciones-energia-vite/"
+            className="rounded-xl text-3xl lg:text-5xl z-50"
+          >
+            <FaArrowLeft />
+          </a>
+          {/* Botón de llamada fijo */}
+          <a
+            href="tel:+5354377277"
+            className=" bg-green-600 text-white px-6 py-3 rounded-xl font-medium shadow-lg hover:bg-green-700 transition-colors duration-300 z-50 flex items-center justify-center gap-2"
+          >
+            <FaPhoneAlt /> Llamar al +53 54377277
+          </a>
         </div>
 
         {/* Imagen principal */}
@@ -61,26 +67,34 @@ export default function ProductPage() {
           <p className="text-green-600 font-bold text-2xl">{product.price}</p>
 
           {/* Botones de acción */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-8">
-            <h2 className="text-3xl font-bold">¡Contactame ya!</h2>
-            <a
-              href="https://m.me/elizabeth.fernandez.937422"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-6 py-3 rounded-xl font-medium hover:bg-blue-700 transition-colors duration-300 flex items-center justify-center gap-2"
-            >
-              <FaFacebookF className="w-5 h-5" />
-              Facebook
-            </a>
+          <div className="flex flex-col gap-4 mb-8">
+            <h2 className="text-3xl font-bold">¡Contáctame ya!</h2>
+            <div className="flex flex-col gap-4">
+              <a
+                href="https://m.me/elizabeth.fernandez.937422"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-600 text-white px-6 py-3 rounded-xl font-medium hover:bg-blue-700 transition-colors duration-300 flex items-center justify-center gap-2"
+              >
+                <FaFacebookF className="w-5 h-5" />
+                Facebook
+              </a>
 
-            <a
-              href="https://wa.me/5354377277?text=Hola%2C%20estoy%20interesado%20en%20el%20producto%20que%20vi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-green-500 text-white px-6 py-3 rounded-xl text-center font-medium hover:bg-green-600 transition-colors duration-300 flex items-center justify-center gap-2"
-            >
-              <FaWhatsapp className="w-5 h-5" /> WhatsApp
-            </a>
+              <a
+                href="https://wa.me/5354377277?text=Hola%2C%20estoy%20interesado%20en%20el%20producto%20que%20vi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-500 text-white px-6 py-3 rounded-xl text-center font-medium hover:bg-green-600 transition-colors duration-300 flex items-center justify-center gap-2"
+              >
+                <FaWhatsapp className="w-5 h-5" /> WhatsApp
+              </a>
+              {/* 🔗 Compartir */}
+              <ShareButton
+                title="Venta de Estaciones de Energía"
+                text={`Mira este producto: ${product.name}`}
+                url={window.location.href}
+              />
+            </div>
           </div>
         </div>
       </div>
