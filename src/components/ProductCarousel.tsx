@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { FaWindowClose, FaArrowLeft , FaArrowRight } from "react-icons/fa";
 
 type Media = { type: "image" | "video"; src: string };
 
@@ -45,10 +46,10 @@ export default function ProductCarousel({ media, initialIndex = 0, onClose }: Pr
         onTouchEnd={handleTouchEnd}
       >
         <button
-          className="absolute top-2 right-2 text-white text-3xl font-bold z-50"
+          className="absolute top-2 right-2 z-50"
           onClick={onClose}
         >
-          ×
+          <FaWindowClose className="text-3xl lg:cursor-pointer"/>
         </button>
 
         {media[index].type === "image" ? (
@@ -62,25 +63,25 @@ export default function ProductCarousel({ media, initialIndex = 0, onClose }: Pr
             src={media[index].src}
             controls
             autoPlay
-            muted
+            muted={false}
             className="max-h-[80vh] max-w-[90vw] object-contain rounded-lg"
           />
         )}
 
         <button
-          className="absolute left-0 top-1/2 -translate-y-1/2 text-white text-4xl px-4 py-2 font-bold"
+          className="absolute left-0 top-1/2 -translate-y-1/2 text-4xl px-2 py-2 lg:cursor-pointer bg-black rounded-full opacity-80"
           onClick={prev}
         >
-          ‹
+          <FaArrowLeft className="text-white text-2xl"/>
         </button>
         <button
-          className="absolute right-0 top-1/2 -translate-y-1/2 text-white text-4xl px-4 py-2 font-bold"
+          className="absolute right-0 top-1/2 -translate-y-1/2 text-4xl px-2 py-2 lg:cursor-pointer bg-black rounded-full opacity-80"
           onClick={next}
         >
-          ›
+          <FaArrowRight className="text-white text-2xl"/>
         </button>
 
-        <div className="absolute bottom-2 left-1/2 -translate-x-1/2 text-white font-semibold bg-black bg-opacity-50 px-3 py-1 rounded">
+        <div className="absolute bottom-(-1) left-1/2 -translate-x-1/2 text-white font-semibold bg-black bg-opacity-50 px-3 py-1 rounded">
           {index + 1} / {media.length}
         </div>
       </div>

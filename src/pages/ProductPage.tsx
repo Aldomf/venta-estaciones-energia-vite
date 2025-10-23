@@ -27,7 +27,7 @@ export default function ProductPage() {
     <div className="max-w-6xl mx-auto mt-24 px-6 md:px-10 lg:px-16 font-inter text-gray-800">
       {/* Sección superior */}
       <div className="flex flex-col md:flex-row gap-10">
-        <div className="fixed right-0 top-0 w-full py-1 flex flex-row justify-between items-center bg-white shadow-md">
+        <div className="fixed right-0 top-0 w-full py-1 flex flex-row justify-between items-center bg-white shadow-md px-2 lg:px-4">
           {/* Botón de atrás */}
           <a
             href="/venta-estaciones-energia-vite/"
@@ -60,7 +60,7 @@ export default function ProductPage() {
 
         {/* Info principal */}
         <div className="md:w-1/2 space-y-4">
-          <h1 className="text-4xl font-bold text-gray-900">{product.name}</h1>
+          <h1 className="text-2xl font-bold text-gray-900">{product.name}</h1>
           <p className="text-gray-600 text-base leading-relaxed">
             {product.description}
           </p>
@@ -88,6 +88,11 @@ export default function ProductPage() {
               >
                 <FaWhatsapp className="w-5 h-5" /> WhatsApp
               </a>
+              {/* 📝 Texto antes de compartir */}
+              <p className="text-gray-700 text-center font-medium mt-2">
+                En caso de que conozcas a alguien interesado, da clic en el
+                botón de abajo 👇
+              </p>
               {/* 🔗 Compartir */}
               <ShareButton
                 title="Venta de Estaciones de Energía"
