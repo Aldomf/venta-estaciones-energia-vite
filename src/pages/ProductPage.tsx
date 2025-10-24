@@ -64,7 +64,7 @@ export default function ProductPage() {
           <p className="text-gray-600 text-base leading-relaxed">
             {product.description}
           </p>
-          <p className="text-green-600 font-bold text-2xl">{product.price}</p>
+          {/* <p className="text-green-600 font-bold text-2xl">{product.price}</p> */}
 
           {/* Botones de acción */}
           <div className="flex flex-col gap-4 mb-8">

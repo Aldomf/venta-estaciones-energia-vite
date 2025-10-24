@@ -5,7 +5,7 @@ export type Product = {
   name: string;
   media: Media[];
   description: string;
-  price: string;
+  //price: string;
   details: {
     label: string;
     value: string;
@@ -32,7 +32,7 @@ export const products: Product[] = [
     ],
     description:
       "Estación de energía portátil (Nuevo modelo 2025), respaldo de batería LiFePO4 de 1024 Wh con 4 tomas de corriente CA de 1800 W (3600 W de pico)",
-    price: "$499",
+    //price: "$499",
     details: [
       { label: "Marca", value: "BLUETTI" },
       { label: "Capacidad energética", value: "1024 Watt-hora" },
@@ -79,7 +79,7 @@ export const products: Product[] = [
     ],
     description:
       "Controlador de carga solar PowMr 60A MPPT, compatible con sistemas de 12V/24V/48V (máx. 160V DC de entrada). Incluye pantalla LCD incorporada y admite hasta 12 reguladores solares conectados en paralelo. Compatible con baterías de plomo-ácido y de litio.",
-    price: "$129",
+    //price: "$129",
     details: [
       { label: "Color", value: "Versión paralela 60A-12V-48V" },
       { label: "Marca", value: "PowMr" },
@@ -114,7 +114,7 @@ export const products: Product[] = [
       {
         title:
           "[Ventilador sin aspas actualizado y sensor de temperatura plug-and-play]",
-        text: "El nuevo sistema de ventilación sin aspas se activa al superar los 45 °C y se apaga por debajo de 40 °C, proporcionando una disipación de calor más silenciosa y eficiente. Ideal para vehículos recreativos, barcos, y sistemas solares. Además, cuenta con un puerto para sensor de temperatura incluido, fácil de instalar y preciso.",
+        text: "El nuevo sistema de ventilación sin aspas se activa al superar los 45 °C y se apaga por debajo de 40 °C, proporcionando una disipación de calor más silenciosa y eficiente. Además, cuenta con un puerto para sensor de temperatura incluido, fácil de instalar y preciso.",
       },
       {
         title: "[Atención]",
@@ -139,7 +139,7 @@ export const products: Product[] = [
     ],
     description:
       "Inversor de potencia de 2000W de corriente continua (12V) a corriente alterna (120V), ideal para vehículos, casas rodantes, camiones, sistemas solares y uso en exteriores. Incluye puerto USB, control remoto y cableado resistente.",
-    price: "$239",
+    //price: "$239",
     details: [
       { label: "Marca", value: "BELTTT" },
       { label: "Fuente de alimentación", value: "Energía solar y batería" },
@@ -156,10 +156,6 @@ export const products: Product[] = [
       {
         title: "[Conversión potente de DC a AC]",
         text: "Proporciona 2000W de salida continua (12V DC a 110V/120V AC) y hasta 4000W de potencia pico al arrancar. Eficiencia superior al 91% y bajas pérdidas sin carga.",
-      },
-      {
-        title: "[Onda sinusoidal pura]",
-        text: "La salida del inversor imita la corriente alterna de la red eléctrica, ideal para equipos sensibles como televisores, sistemas de audio, computadoras o herramientas eléctricas, prolongando su vida útil y reduciendo fallos.",
       },
       {
         title: "[Pantalla LCD inteligente]",
@@ -192,7 +188,7 @@ export const products: Product[] = [
     ],
     description:
       "Batería de litio LiFePO4 de 12V y 100Ah con sistema BMS inteligente de 100A incorporado. Compatible con grupo 31, diseñada para sistemas solares, vehículos recreativos, embarcaciones y aplicaciones fuera de la red. Ofrece más de 15,000 ciclos de carga y una vida útil de hasta 10 años.",
-    price: "$389",
+    //price: "$389",
     details: [
       { label: "Marca", value: "GREENOE" },
       { label: "Dimensiones del producto", value: '12.9" x 6.7" x 8.6"' },
@@ -216,16 +212,8 @@ export const products: Product[] = [
         text: "El sistema BMS integrado corta automáticamente la descarga a temperaturas inferiores a -4°F y detiene la carga por debajo de 32°F, protegiendo contra sobretemperatura, sobrecarga, sobrecorriente, sobredescarga y cortocircuitos.",
       },
       {
-        title: "[Diseño compacto y compatible con grupo 31]",
-        text: "Pesa solo 22.5 libras (33% del peso de una batería de plomo-ácido convencional) y mide 12.9 x 6.7 x 8.6 pulgadas. Su tamaño compacto permite mayor densidad energética y fácil transporte para sistemas solares, RV y embarcaciones.",
-      },
-      {
         title: "[Aplicaciones amplias y expansión flexible]",
-        text: "Admite una corriente de descarga máxima de 300A durante 3 segundos y cuenta con clasificación IP65 resistente al agua. Puede conectarse en serie o en paralelo para alcanzar hasta 48V (51.2V) y 20.48kWh (4P4S), ideal para sistemas solares, RV, marinos y respaldo doméstico.",
-      },
-      {
-        title: "[Notas importantes]",
-        text: "No se recomienda como batería de arranque o para carritos de golf. Use siempre un cargador de 14.6V ±0.2V para activarla o recargarla. Antes de conectar baterías en serie, asegúrese de que estén completamente cargadas y con diferencia de voltaje menor a 0.2V. Se recomienda recargarla cada 2-3 meses si no se usa.",
+        text: "Admite una corriente de descarga máxima de 300A durante 3 segundos y cuenta con clasificación IP65 resistente al agua. Puede conectarse en serie o en paralelo para alcanzar hasta 48V (51.2V) y 20.48kWh (4P4S).",
       },
     ],
   },
@@ -244,8 +232,8 @@ export const products: Product[] = [
       { type: "image", src: "/venta-estaciones-energia-vite/img/p-5-9.png" },
     ],
     description:
-      "Cargador inteligente de baterías VEVOR de 35A compatible con baterías de plomo-ácido (AGM/Gel/SLA), LiFePO4 y litio. Incluye modos de carga, mantenimiento, desulfatación y suministro de energía, con pantalla LCD y protección avanzada para uso en autos, barcos, motocicletas, cortadoras de césped y sistemas de ciclo profundo.",
-    price: "$129",
+      "Cargador inteligente de baterías VEVOR de 35A compatible con baterías de plomo-ácido (AGM/Gel/SLA), LiFePO4 y litio. Incluye modos de carga, mantenimiento, desulfatación, suministro de energía y con pantalla LCD.",
+    //price: "$129",
     details: [
       { label: "Marca", value: "VEVOR" },
       { label: "Color", value: "Negro" },
@@ -273,13 +261,13 @@ export const products: Product[] = [
       },
       {
         title: "[Accesorios incluidos]",
-        text: "Incluye 2 terminales de cobre, cable de alimentación tipo figura 8 de 3 m, pinzas para batería y manual. Compatible con baterías de ciclo profundo, autos, camiones, motocicletas, embarcaciones y más.",
+        text: "Incluye 2 terminales de cobre, cable de alimentación tipo figura 8 de 3 m, pinzas para batería y manual."
       },
     ],
   },
   {
     id: "6",
-    name: "EF ECOFLOW DELTA 3 Estación de Energía Portátil 1024Wh",
+    name: "EF ECOFLOW DELTA 2 Estación de Energía Portátil 1024Wh",
     media: [
       { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-1.png" },
       { type: "video", src: "/venta-estaciones-energia-vite/vid/vid-p-6.mp4" },
@@ -290,8 +278,8 @@ export const products: Product[] = [
       { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-6.png" },
     ],
     description:
-      "Estación de energía portátil EF ECOFLOW DELTA 3 con batería LiFePO4 de 1024Wh. Recarga completa en 56 minutos, salida AC de 1800W y USB-C de 100W, ideal para respaldo en el hogar y sistemas solares (panel solar opcional).",
-    price: "$799",
+      "Estación de energía portátil EF ECOFLOW DELTA 2 con batería LiFePO4 de 1024Wh. Recarga completa en 56 minutos, salida AC de 1800W y USB-C de 100W, ideal para respaldo en el hogar y sistemas solares (panel solar opcional).",
+    //price: "$799",
     details: [
       { label: "Marca", value: "EF ECOFLOW" },
       { label: "Capacidad energética", value: "1024 Wh" },
@@ -306,17 +294,13 @@ export const products: Product[] = [
       {
         label: "Componentes incluidos",
         value:
-          "Cable de carga AC, estación EcoFlow DELTA 3, manual y tarjeta de garantía",
+          "Cable de carga AC, estación EcoFlow DELTA 2, manual y tarjeta de garantía",
       },
     ],
     specifications: [
       {
         title: "[Carga completa en 56 minutos]",
-        text: "Combinando 500W de entrada solar y 1500W de entrada AC máxima, la DELTA 3 logra una carga completa en 56 minutos y 80% en solo 30 minutos.",
-      },
-      {
-        title: "[Expansión flexible hasta 5kWh]",
-        text: "Se integra con el ecosistema EcoFlow, permitiendo expansión hasta 5kWh con DELTA 3, DELTA Pro 3 y DELTA 2 Max. La batería extra DELTA 3 es 1/3 más pequeña y ligera que la DELTA 2 Extra.",
+        text: "Combinando 500W de entrada solar y 1500W de entrada AC máxima, la DELTA 2 logra una carga completa en 56 minutos y 80% en solo 30 minutos.",
       },
       {
         title: "[Durabilidad y confiabilidad]",
@@ -328,7 +312,48 @@ export const products: Product[] = [
       },
       {
         title: "[Contenido del paquete]",
-        text: "Estación de energía portátil DELTA 3, cable de carga AC, manual de usuario y servicio al cliente exclusivo de 5 años.",
+        text: "Estación de energía portátil DELTA 2, cable de carga AC, manual de usuario.",
+      },
+    ],
+  },
+  {
+    id: "7",
+    name: "Kit de Energía 12V Completo VEVOR + GRNOE + BELTT (Cargador, Batería e Inversor 2000W)",
+    media: [
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-7-1.png" },
+    ],
+    description:
+      "Kit de energía portátil completo compuesto por cargador inteligente VEVOR, batería LiFePO4 GRNOE de 12.8V 100Ah y convertidor BELTT de 2000W de onda senoidal pura.",
+    //price: "$649",
+    details: [
+      { label: "Marca", value: "VEVOR / GRNOE / BELTT" },
+      { label: "Capacidad energética", value: "1280 Wh (12.8V 100Ah)" },
+      { label: "Fuente de alimentación", value: "Eléctrica y/o solar" },
+      { label: "Voltaje de salida", value: "AC 120V / DC 12V" },
+      { label: "Potencia de salida", value: "2000W (pico 4000W)" },
+      { label: "Tipo de batería", value: "LiFePO4 de ciclo profundo" },
+      {
+        label: "Componentes incluidos",
+        value:
+          "Cargador inteligente VEVOR, batería GRNOE 12.8V 100Ah, inversor BELTT 2000W, cables de conexión, manuales y pinzas de carga.",
+      },
+    ],
+    specifications: [
+      {
+        title: "[Cargador inteligente VEVOR]",
+        text: "Cargador automático multietapa compatible con baterías LiFePO4, AGM y de plomo-ácido. Modo de mantenimiento, desulfatación y carga rápida con pantalla LCD digital.",
+      },
+      {
+        title: "[Batería GRNOE LiFePO4 12.8V 100Ah]",
+        text: "Batería de ciclo profundo con 4000+ ciclos de vida útil, alta eficiencia energética y protección BMS integrada."
+      },
+      {
+        title: "[Inversor BELTT 2000W onda pura]",
+        text: "Convierte 12V DC a 120V AC con salida de onda senoidal pura, garantizando energía estable para equipos sensibles. Incluye pantalla LCD, control remoto y cables de conexión.",
+      },
+      {
+        title: "[Contenido del paquete]",
+        text: "1 cargador VEVOR, 1 batería GRNOE LiFePO4, 1 inversor BELTT 2000W, cables de conexión y manuales de usuario.",
       },
     ],
   },
