@@ -67,58 +67,94 @@ export const products: Product[] = [
     ],
   },
   {
-    id: "2",
-    name: "PowMr 60A MPPT Solar Charge Controller",
+    id: "6",
+    name: "EF ECOFLOW DELTA 2 Estación de Energía Portátil 1024Wh",
     media: [
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-1.png" },
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-2.png" },
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-3.png" },
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-4.png" },
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-5.png" },
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-6.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-1.png" },
+      { type: "video", src: "/venta-estaciones-energia-vite/vid/vid-p-6.mp4" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-2.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-3.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-4.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-5.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-6.png" },
     ],
     description:
-      "Controlador de carga solar PowMr 60A MPPT, compatible con sistemas de 12V/24V/48V (máx. 160V DC de entrada). Incluye pantalla LCD incorporada y admite hasta 12 reguladores solares conectados en paralelo. Compatible con baterías de plomo-ácido y de litio.",
-    //price: "$129",
+      "Estación de energía portátil EF ECOFLOW DELTA 2 con batería LiFePO4 de 1024Wh. Recarga completa en 56 minutos, salida AC de 1800W y USB-C de 100W, ideal para respaldo en el hogar y sistemas solares (panel solar opcional).",
+    //price: "$799",
     details: [
-      { label: "Color", value: "Versión paralela 60A-12V-48V" },
-      { label: "Marca", value: "PowMr" },
-      { label: "Voltaje", value: "12 voltios (DC)" },
-      { label: "Tipo de pantalla", value: "LCD" },
+      { label: "Marca", value: "EF ECOFLOW" },
+      { label: "Capacidad energética", value: "1024 Wh" },
+      { label: "Fuente de alimentación", value: "Eléctrica y/o solar" },
+      { label: "Peso del artículo", value: "12.5 kg" },
+      { label: "Voltaje", value: "110V AC" },
+      { label: "Potencia de salida", value: "1800W AC" },
       {
-        label: "Dimensiones del producto",
-        value: '5.12" L x 3.35" W x 8.46" H',
+        label: "Característica especial",
+        value: "Expansible hasta 5kWh con batería extra EcoFlow",
       },
-      { label: "Peso del artículo", value: "2.2 libras" },
-      { label: "Material", value: "Plástico" },
-      { label: "Temperatura de funcionamiento", value: "45 °C" },
       {
         label: "Componentes incluidos",
         value:
-          "Controlador, terminal de conexión en paralelo, sonda de temperatura externa",
+          "Cable de carga AC, estación EcoFlow DELTA 2, manual y tarjeta de garantía",
       },
     ],
     specifications: [
       {
-        title: "[Diseño MPPT con actualización de software]",
-        text: "Este controlador solar de 60A cuenta con tecnología 100% MPPT, logrando una eficiencia máxima ≥98.1% y una utilización fotovoltaica ≥99%. Incluye un controlador DSP de alto rendimiento que detecta automáticamente el voltaje de la batería (12V/24V/36V/48V). Asegura que las baterías superen los 12V para activarse y posean energía suficiente para la autocomprobación al conectarse.",
+        title: "[Carga completa en 56 minutos]",
+        text: "Combinando 500W de entrada solar y 1500W de entrada AC máxima, la DELTA 2 logra una carga completa en 56 minutos y 80% en solo 30 minutos.",
       },
       {
-        title: "[Compatibilidad con múltiples tipos de baterías]",
-        text: "Admite baterías de tipo usuario (ajustable para Litio, LiFePO4, Li(NiCoMn)O2), ventiladas, selladas, de gel o NiCd. Permite configurar parámetros personalizados como voltaje de absorción, flotación, desconexión por bajo voltaje, temporizador de carga y registro de energía en tiempo real. Conectores dobles para positivo y negativo en entradas y salidas, con cables de cobre 9AWG.",
+        title: "[Durabilidad y confiabilidad]",
+        text: "Baterías LiFePO4 con 4000 ciclos hasta 80% de capacidad, ofreciendo 25% más durabilidad que el estándar de la industria. IP65: resistente al agua, polvo y aceite.",
       },
       {
-        title: "[Protección completa del sistema]",
-        text: "Incluye una pantalla LCD retroiluminada que muestra voltaje fotovoltaico, potencia de salida, voltaje de batería, corriente de carga, modo de trabajo y temperatura. Dispone de una función de diagnóstico para monitorear datos del sistema, detectar fallas y ajustar parámetros para un rendimiento óptimo.",
+        title: "[Alimenta hasta 13 aparatos simultáneamente]",
+        text: "Con múltiples interfaces, puede alimentar hasta 13 dispositivos al mismo tiempo. X-Boost soporta aparatos resistivos de hasta 2600W continuamente.",
       },
       {
-        title:
-          "[Ventilador sin aspas actualizado y sensor de temperatura plug-and-play]",
-        text: "El nuevo sistema de ventilación sin aspas se activa al superar los 45 °C y se apaga por debajo de 40 °C, proporcionando una disipación de calor más silenciosa y eficiente. Además, cuenta con un puerto para sensor de temperatura incluido, fácil de instalar y preciso.",
+        title: "[Contenido del paquete]",
+        text: "Estación de energía portátil DELTA 2, cable de carga AC, manual de usuario.",
+      },
+    ],
+  },
+  {
+    id: "7",
+    name: "Kit de Energía 12V Completo VEVOR + GRNOE + BELTT (Cargador, Batería e Inversor 2000W)",
+    media: [
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-7-1.png" },
+    ],
+    description:
+      "Kit de energía portátil completo compuesto por cargador inteligente VEVOR, batería LiFePO4 GRNOE de 12.8V 100Ah y convertidor BELTT de 2000W de onda senoidal pura.",
+    //price: "$649",
+    details: [
+      { label: "Marca", value: "VEVOR / GRNOE / BELTT" },
+      { label: "Capacidad energética", value: "1280 Wh (12.8V 100Ah)" },
+      { label: "Fuente de alimentación", value: "Eléctrica y/o solar" },
+      { label: "Voltaje de salida", value: "AC 120V / DC 12V" },
+      { label: "Potencia de salida", value: "2000W (pico 4000W)" },
+      { label: "Tipo de batería", value: "LiFePO4 de ciclo profundo" },
+      {
+        label: "Componentes incluidos",
+        value:
+          "Cargador inteligente VEVOR, batería GRNOE 12.8V 100Ah, inversor BELTT 2000W, cables de conexión, manuales y pinzas de carga.",
+      },
+    ],
+    specifications: [
+      {
+        title: "[Cargador inteligente VEVOR]",
+        text: "Cargador automático multietapa compatible con baterías LiFePO4, AGM y de plomo-ácido. Modo de mantenimiento, desulfatación y carga rápida con pantalla LCD digital.",
       },
       {
-        title: "[Atención]",
-        text: "Para baterías de plomo-ácido, ventiladas o de gel, el controlador ajusta automáticamente los parámetros. En cambio, para baterías de litio es necesario configurar los valores manualmente, ya que su voltaje varía (por ejemplo, una batería de 12V puede oscilar entre 11.1V y 14.8V). Es importante ajustar los parámetros según el voltaje real de la batería para un funcionamiento adecuado.",
+        title: "[Batería GRNOE LiFePO4 12.8V 100Ah]",
+        text: "Batería de ciclo profundo con 4000+ ciclos de vida útil, alta eficiencia energética y protección BMS integrada.",
+      },
+      {
+        title: "[Inversor BELTT 2000W onda pura]",
+        text: "Convierte 12V DC a 120V AC con salida de onda senoidal pura, garantizando energía estable para equipos sensibles. Incluye pantalla LCD, control remoto y cables de conexión.",
+      },
+      {
+        title: "[Contenido del paquete]",
+        text: "1 cargador VEVOR, 1 batería GRNOE LiFePO4, 1 inversor BELTT 2000W, cables de conexión y manuales de usuario.",
       },
     ],
   },
@@ -138,14 +174,14 @@ export const products: Product[] = [
       { type: "image", src: "/venta-estaciones-energia-vite/img/p-3-9.png" },
     ],
     description:
-      "Inversor de potencia de 2000W de corriente continua (12V) a corriente alterna (120V), ideal para vehículos, casas rodantes, camiones, sistemas solares y uso en exteriores. Incluye puerto USB, control remoto y cableado resistente.",
+      "Inversor de potencia de 2000W de corriente continua (12V) a corriente alterna (120V), ideal para casas , vehiculos y sistemas solares. Incluye puerto USB, control remoto y cableado resistente.",
     //price: "$239",
     details: [
       { label: "Marca", value: "BELTTT" },
       { label: "Fuente de alimentación", value: "Energía solar y batería" },
       { label: "Potencia nominal", value: "2000 Watts (pico 4000W)" },
-      { label: "Modelo", value: "BAP2000" },
-      { label: "Altura del artículo", value: "3.9 pulgadas" },
+      // { label: "Modelo", value: "BAP2000" },
+      // { label: "Altura del artículo", value: "3.9 pulgadas" },
       {
         label: "Componentes incluidos",
         value:
@@ -261,99 +297,63 @@ export const products: Product[] = [
       },
       {
         title: "[Accesorios incluidos]",
-        text: "Incluye 2 terminales de cobre, cable de alimentación tipo figura 8 de 3 m, pinzas para batería y manual."
+        text: "Incluye 2 terminales de cobre, cable de alimentación tipo figura 8 de 3 m, pinzas para batería y manual.",
       },
     ],
   },
   {
-    id: "6",
-    name: "EF ECOFLOW DELTA 2 Estación de Energía Portátil 1024Wh",
+    id: "2",
+    name: "PowMr 60A MPPT Solar Charge Controller",
     media: [
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-1.png" },
-      { type: "video", src: "/venta-estaciones-energia-vite/vid/vid-p-6.mp4" },
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-2.png" },
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-3.png" },
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-4.png" },
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-5.png" },
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-6-6.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-1.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-2.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-3.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-4.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-5.png" },
+      { type: "image", src: "/venta-estaciones-energia-vite/img/p-2-6.png" },
     ],
     description:
-      "Estación de energía portátil EF ECOFLOW DELTA 2 con batería LiFePO4 de 1024Wh. Recarga completa en 56 minutos, salida AC de 1800W y USB-C de 100W, ideal para respaldo en el hogar y sistemas solares (panel solar opcional).",
-    //price: "$799",
+      "Controlador de carga solar PowMr 60A MPPT, compatible con sistemas de 12V/24V/48V (máx. 160V DC de entrada). Incluye pantalla LCD incorporada y admite hasta 12 reguladores solares conectados en paralelo. Compatible con baterías de plomo-ácido y de litio.",
+    //price: "$129",
     details: [
-      { label: "Marca", value: "EF ECOFLOW" },
-      { label: "Capacidad energética", value: "1024 Wh" },
-      { label: "Fuente de alimentación", value: "Eléctrica y/o solar" },
-      { label: "Peso del artículo", value: "12.5 kg" },
-      { label: "Voltaje", value: "110V AC" },
-      { label: "Potencia de salida", value: "1800W AC" },
+      { label: "Color", value: "Versión paralela 60A-12V-48V" },
+      { label: "Marca", value: "PowMr" },
+      { label: "Voltaje", value: "12 voltios (DC)" },
+      { label: "Tipo de pantalla", value: "LCD" },
       {
-        label: "Característica especial",
-        value: "Expansible hasta 5kWh con batería extra EcoFlow",
+        label: "Dimensiones del producto",
+        value: '5.12" L x 3.35" W x 8.46" H',
       },
+      { label: "Peso del artículo", value: "2.2 libras" },
+      { label: "Material", value: "Plástico" },
+      { label: "Temperatura de funcionamiento", value: "45 °C" },
       {
         label: "Componentes incluidos",
         value:
-          "Cable de carga AC, estación EcoFlow DELTA 2, manual y tarjeta de garantía",
+          "Controlador, terminal de conexión en paralelo, sonda de temperatura externa",
       },
     ],
     specifications: [
       {
-        title: "[Carga completa en 56 minutos]",
-        text: "Combinando 500W de entrada solar y 1500W de entrada AC máxima, la DELTA 2 logra una carga completa en 56 minutos y 80% en solo 30 minutos.",
+        title: "[Diseño MPPT con actualización de software]",
+        text: "Este controlador solar de 60A cuenta con tecnología 100% MPPT, logrando una eficiencia máxima ≥98.1% y una utilización fotovoltaica ≥99%. Incluye un controlador DSP de alto rendimiento que detecta automáticamente el voltaje de la batería (12V/24V/36V/48V). Asegura que las baterías superen los 12V para activarse y posean energía suficiente para la autocomprobación al conectarse.",
       },
       {
-        title: "[Durabilidad y confiabilidad]",
-        text: "Baterías LiFePO4 con 4000 ciclos hasta 80% de capacidad, ofreciendo 25% más durabilidad que el estándar de la industria. IP65: resistente al agua, polvo y aceite.",
+        title: "[Compatibilidad con múltiples tipos de baterías]",
+        text: "Admite baterías de tipo usuario (ajustable para Litio, LiFePO4, Li(NiCoMn)O2), ventiladas, selladas, de gel o NiCd. Permite configurar parámetros personalizados como voltaje de absorción, flotación, desconexión por bajo voltaje, temporizador de carga y registro de energía en tiempo real. Conectores dobles para positivo y negativo en entradas y salidas, con cables de cobre 9AWG.",
       },
       {
-        title: "[Alimenta hasta 13 aparatos simultáneamente]",
-        text: "Con múltiples interfaces, puede alimentar hasta 13 dispositivos al mismo tiempo. X-Boost soporta aparatos resistivos de hasta 2600W continuamente.",
+        title: "[Protección completa del sistema]",
+        text: "Incluye una pantalla LCD retroiluminada que muestra voltaje fotovoltaico, potencia de salida, voltaje de batería, corriente de carga, modo de trabajo y temperatura. Dispone de una función de diagnóstico para monitorear datos del sistema, detectar fallas y ajustar parámetros para un rendimiento óptimo.",
       },
       {
-        title: "[Contenido del paquete]",
-        text: "Estación de energía portátil DELTA 2, cable de carga AC, manual de usuario.",
-      },
-    ],
-  },
-  {
-    id: "7",
-    name: "Kit de Energía 12V Completo VEVOR + GRNOE + BELTT (Cargador, Batería e Inversor 2000W)",
-    media: [
-      { type: "image", src: "/venta-estaciones-energia-vite/img/p-7-1.png" },
-    ],
-    description:
-      "Kit de energía portátil completo compuesto por cargador inteligente VEVOR, batería LiFePO4 GRNOE de 12.8V 100Ah y convertidor BELTT de 2000W de onda senoidal pura.",
-    //price: "$649",
-    details: [
-      { label: "Marca", value: "VEVOR / GRNOE / BELTT" },
-      { label: "Capacidad energética", value: "1280 Wh (12.8V 100Ah)" },
-      { label: "Fuente de alimentación", value: "Eléctrica y/o solar" },
-      { label: "Voltaje de salida", value: "AC 120V / DC 12V" },
-      { label: "Potencia de salida", value: "2000W (pico 4000W)" },
-      { label: "Tipo de batería", value: "LiFePO4 de ciclo profundo" },
-      {
-        label: "Componentes incluidos",
-        value:
-          "Cargador inteligente VEVOR, batería GRNOE 12.8V 100Ah, inversor BELTT 2000W, cables de conexión, manuales y pinzas de carga.",
-      },
-    ],
-    specifications: [
-      {
-        title: "[Cargador inteligente VEVOR]",
-        text: "Cargador automático multietapa compatible con baterías LiFePO4, AGM y de plomo-ácido. Modo de mantenimiento, desulfatación y carga rápida con pantalla LCD digital.",
+        title:
+          "[Ventilador sin aspas actualizado y sensor de temperatura plug-and-play]",
+        text: "El nuevo sistema de ventilación sin aspas se activa al superar los 45 °C y se apaga por debajo de 40 °C, proporcionando una disipación de calor más silenciosa y eficiente. Además, cuenta con un puerto para sensor de temperatura incluido, fácil de instalar y preciso.",
       },
       {
-        title: "[Batería GRNOE LiFePO4 12.8V 100Ah]",
-        text: "Batería de ciclo profundo con 4000+ ciclos de vida útil, alta eficiencia energética y protección BMS integrada."
-      },
-      {
-        title: "[Inversor BELTT 2000W onda pura]",
-        text: "Convierte 12V DC a 120V AC con salida de onda senoidal pura, garantizando energía estable para equipos sensibles. Incluye pantalla LCD, control remoto y cables de conexión.",
-      },
-      {
-        title: "[Contenido del paquete]",
-        text: "1 cargador VEVOR, 1 batería GRNOE LiFePO4, 1 inversor BELTT 2000W, cables de conexión y manuales de usuario.",
+        title: "[Atención]",
+        text: "Para baterías de plomo-ácido, ventiladas o de gel, el controlador ajusta automáticamente los parámetros. En cambio, para baterías de litio es necesario configurar los valores manualmente, ya que su voltaje varía (por ejemplo, una batería de 12V puede oscilar entre 11.1V y 14.8V). Es importante ajustar los parámetros según el voltaje real de la batería para un funcionamiento adecuado.",
       },
     ],
   },
